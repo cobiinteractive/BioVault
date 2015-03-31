@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12EEA9E21AC4442C001EC427 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EEA9E11AC4442C001EC427 /* main.m */; };
+		12EEA9E51AC4442C001EC427 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EEA9E41AC4442C001EC427 /* AppDelegate.m */; };
+		12EEA9E81AC4442C001EC427 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EEA9E71AC4442C001EC427 /* ViewController.m */; };
+		12EEA9EB1AC4442C001EC427 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12EEA9E91AC4442C001EC427 /* Main.storyboard */; };
+		12EEA9ED1AC4442C001EC427 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12EEA9EC1AC4442C001EC427 /* Images.xcassets */; };
+		12EEA9F01AC4442C001EC427 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12EEA9EE1AC4442C001EC427 /* LaunchScreen.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		12EEA9DC1AC4442C001EC427 /* BioVault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BioVault.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12EEA9E01AC4442C001EC427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12EEA9E11AC4442C001EC427 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12EEA9E31AC4442C001EC427 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		12EEA9E41AC4442C001EC427 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		12EEA9E61AC4442C001EC427 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		12EEA9E71AC4442C001EC427 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		12EEA9EA1AC4442C001EC427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12EEA9EC1AC4442C001EC427 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		12EEA9EF1AC4442C001EC427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12EEA9D91AC4442C001EC427 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12EEA9D31AC4442C001EC427 = {
+			isa = PBXGroup;
+			children = (
+				12EEA9DE1AC4442C001EC427 /* BioVault */,
+				12EEA9DD1AC4442C001EC427 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12EEA9DD1AC4442C001EC427 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12EEA9DC1AC4442C001EC427 /* BioVault.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12EEA9DE1AC4442C001EC427 /* BioVault */ = {
+			isa = PBXGroup;
+			children = (
+				12EEA9E31AC4442C001EC427 /* AppDelegate.h */,
+				12EEA9E41AC4442C001EC427 /* AppDelegate.m */,
+				12EEA9E61AC4442C001EC427 /* ViewController.h */,
+				12EEA9E71AC4442C001EC427 /* ViewController.m */,
+				12EEA9E91AC4442C001EC427 /* Main.storyboard */,
+				12EEA9EC1AC4442C001EC427 /* Images.xcassets */,
+				12EEA9EE1AC4442C001EC427 /* LaunchScreen.xib */,
+				12EEA9DF1AC4442C001EC427 /* Supporting Files */,
+			);
+			path = BioVault;
+			sourceTree = "<group>";
+		};
+		12EEA9DF1AC4442C001EC427 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12EEA9E01AC4442C001EC427 /* Info.plist */,
+				12EEA9E11AC4442C001EC427 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12EEA9DB1AC4442C001EC427 /* BioVault */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12EEA9FF1AC4442C001EC427 /* Build configuration list for PBXNativeTarget "BioVault" */;
+			buildPhases = (
+				12EEA9D81AC4442C001EC427 /* Sources */,
+				12EEA9D91AC4442C001EC427 /* Frameworks */,
+				12EEA9DA1AC4442C001EC427 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BioVault;
+			productName = TouchIdDemo;
+			productReference = 12EEA9DC1AC4442C001EC427 /* BioVault.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12EEA9D41AC4442C001EC427 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = cobi;
+				TargetAttributes = {
+					12EEA9DB1AC4442C001EC427 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 12EEA9D71AC4442C001EC427 /* Build configuration list for PBXProject "BioVault" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12EEA9D31AC4442C001EC427;
+			productRefGroup = 12EEA9DD1AC4442C001EC427 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12EEA9DB1AC4442C001EC427 /* BioVault */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12EEA9DA1AC4442C001EC427 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12EEA9EB1AC4442C001EC427 /* Main.storyboard in Resources */,
+				12EEA9F01AC4442C001EC427 /* LaunchScreen.xib in Resources */,
+				12EEA9ED1AC4442C001EC427 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12EEA9D81AC4442C001EC427 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12EEA9E81AC4442C001EC427 /* ViewController.m in Sources */,
+				12EEA9E51AC4442C001EC427 /* AppDelegate.m in Sources */,
+				12EEA9E21AC4442C001EC427 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		12EEA9E91AC4442C001EC427 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12EEA9EA1AC4442C001EC427 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12EEA9EE1AC4442C001EC427 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12EEA9EF1AC4442C001EC427 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12EEA9FD1AC4442C001EC427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12EEA9FE1AC4442C001EC427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12EEAA001AC4442C001EC427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/BioVault/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = BioVault;
+			};
+			name = Debug;
+		};
+		12EEAA011AC4442C001EC427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/BioVault/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = BioVault;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12EEA9D71AC4442C001EC427 /* Build configuration list for PBXProject "BioVault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12EEA9FD1AC4442C001EC427 /* Debug */,
+				12EEA9FE1AC4442C001EC427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12EEA9FF1AC4442C001EC427 /* Build configuration list for PBXNativeTarget "BioVault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12EEAA001AC4442C001EC427 /* Debug */,
+				12EEAA011AC4442C001EC427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12EEA9D41AC4442C001EC427 /* Project object */;
+}
